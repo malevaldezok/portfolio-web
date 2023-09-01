@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Landing = () => {
     return (
-        <div className="flex items-center justify-center h-screen bg-[url('https://i.pinimg.com/564x/ae/bb/67/aebb672aca191a7bae8668a3592ebafb.jpg')] bg-cover bg-no-repeat bg-center first-letter:">
+        <div className="flex items-center justify-center h-screen bg-[url('https://i.pinimg.com/564x/ae/bb/67/aebb672aca191a7bae8668a3592ebafb.jpg')] bg-cover bg-no-repeat bg-center">
             <div className="w-100 p-10">
             <h3 className="text-3xl animate-fade-in-y transition ease-in duration-500">¡Bienvenidx a mi portafolio!</h3>
                 <div className="flex items-center justify-center pt-5 animate-fade-up-x">
