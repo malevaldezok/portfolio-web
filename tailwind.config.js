@@ -16,11 +16,16 @@ module.exports = {
         "fade-up-x": {
           "0%": { opacity: 0, transform: "translateX(25px)" },
           "100%": { opacity: 1, transform: "translateX(0px)" },
-        }
+        },
+        "fade": {
+          "0%": { opacity: 0},
+          "100%": { opacity: 1},
+        },
       },
       animation: {
         "fade-in-y": "fade-in-y 2s linear",
-        "fade-up-x": "fade-up-x 2s linear"
+        "fade-up-x": "fade-up-x 2s linear",
+        "fade": "fade 1s ease-in"
       }
     }
   },

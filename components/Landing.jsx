@@ -1,5 +1,6 @@
 import React from "react";
 import 'tailwindcss/tailwind.css'
+import Footer from "./Footer";
 
 const Landing = () => {
     return (
@@ -7,9 +8,10 @@ const Landing = () => {
             <div className="w-100 p-10">
             <h3 className="text-3xl animate-fade-in-y transition ease-in duration-500">¡Bienvenidx a mi portafolio!</h3>
                 <div className="flex items-center justify-center pt-5 animate-fade-up-x">
-                <h3 class="border border-solid border-gray-500 rounded-sm px-4 py-2 text-xs uppercase leading-tight text-gray-700 font-bold bg-opacity-60 transition duration-150 ease-in-out transform hover:-translate-y-1 hover:bg-white hover:text-gray-700 hover:scale-110 cursor-pointer absolute mt-10">Te invito a conocer un poco sobre mí</h3>
+                <a href="/home"><h3 class="border border-solid border-gray-500 rounded-sm px-4 py-2 text-xs uppercase leading-tight text-gray-700 font-bold bg-opacity-60 transition duration-150 ease-in-out transform hover:-translate-y-1 hover:bg-white hover:text-gray-700 hover:scale-110 cursor-pointer absolute mt-10">Te invito a conocer un poco sobre mí</h3></a>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
