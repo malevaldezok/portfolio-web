@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Home = () => {
     return (
-        <div className="flex items-center justify-center h-screen bg-[url('https://i.ibb.co/s2N0f17/fondo-verde.jpg')] bg-cover bg-no-repeat bg-center">
+        <div className="flex items-center justify-center h-screen bg-[url('')] bg-cover bg-no-repeat bg-center">
             <NavBar />
         </div>
     )
